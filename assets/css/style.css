@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+nav,
+main,
+.section-imagenes-container {
+  background-color: #000000;
+}
+
+.section-caracteristicas,
+footer {
+  background-color: #1e1a13;
+}
+
+h1,
+h2,
+p,
+a,
+span {
+  font-family: Raleway, Roboto, sans-serif;
+  color: #fff;
+}
+
+nav,
+h2,
+.section-caracteristicas-container div,
+footer {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+p,
+span {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.125em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+span {
+  font-size: 1.5625em;
+}
+
+footer p {
+  font-size: 1.25em;
+}
+
+main,
+main div,
+.section-caracteristicas-container,
+.section-caracteristicas-container div,
+.section-imagenes-container {
+  display: flex;
+}
+
+main,
+.section-caracteristicas-container,
+.section-imagenes-container {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+header {
+  background-image: url("../img/bg-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+}
+
+main {
+  padding: 56px;
+}
+
+main > div,
+.section-caracteristicas-container div {
+  flex-direction: column;
+}
+
+main > div {
+  justify-content: center;
+}
+
+main div {
+  width: 40%;
+  min-width: 300px;
+}
+
+main p + p {
+  margin-top: 10px;
+}
+
+main img {
+  width: 100%;
+}
+
+.section-caracteristicas {
+  padding: 75px;
+}
+
+.section-caracteristicas-container, .section-imagenes-container, main {
+  gap: 40px;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+.section-caracteristicas i {
+  font-size: 2.5625em;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.section-caracteristicas-container div {
+  width: 28%;
+  min-width: 312px;
+}
+
+.section-imagenes-container {
+  padding: 73px 80px;
+}
+
+.section-imagenes-container div {
+  width: 28%;
+  min-width: 300px;
+}
+
+.section-imagenes-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  padding: 39px;
+}
+
+footer a,
+h1 a {
+  text-decoration: none;
+}
